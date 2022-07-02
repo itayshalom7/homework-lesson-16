@@ -1,0 +1,45 @@
+body{
+    background-image:url(https://www.teahub.io/photos/full/69-691077_dc-comics-logo-wallpaper-4k.jpg);
+    color: rgb(245, 250, 171);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: size 100%;
+}
+
+h1{
+    text-shadow: 2px 2px 5px gray;
+    text-align: center;
+
+}
+table{
+    margin: auto;
+
+}
+th{
+    font-size: x-large;
+}
+table, th, td {
+
+    border: 10px solid rgba(62, 62, 128, 0.767);
+    text-shadow: 2px 2px 0.5px rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+
+.grayImg {
+    filter: grayscale(100%);
+    width: 150px;
+    height: 200px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    } 
+
+img:hover {
+    filter: grayscale(0%);
+}
+a{
+    font-size: 30px;
+    color: rgb(245, 250, 171);
+    text-decoration:none ;
+}
